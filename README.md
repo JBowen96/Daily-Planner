@@ -8,7 +8,8 @@ This is a user input based daily planner that features color changes for times o
 [https://jbowen96.github.io/JavaScript-Quiz/](https://jbowen96.github.io/Daily-Planner/)
 
 ## View
-![image](https://github.com/JBowen96/Daily-Planner/assets/139276635/3722d61d-33b0-4235-b34b-fdec9a4605a3)
+![image](https://github.com/JBowen96/Daily-Planner/assets/139276635/74282a0b-36d9-464f-88f3-bf8c37424d45)
+
 
 
 ## Installation
