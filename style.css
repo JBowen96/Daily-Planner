@@ -1,75 +1,75 @@
  body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: rgb(171, 187, 185)
-  }
-  
-  textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: black;
-    border-left: 1px solid rgb(54, 97, 95);
-    padding: 10px;
-  }
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: rgb(171, 187, 185)
+ }
 
- 
-  header {
-    text-align: center;
-    background-color: #b9e7e7;
-    color: black;
-    border-bottom: 5px solid #5e7575;
-    margin-bottom: 20px;
-    box-sizing: 0px 0px 10px #5e7575;
-  }
-  
-  .description{
-    white-space: pre-wrap;
-  }
-  
-  .time-block{
-    text-align: left;
-    border-radius: 15px;
-  }
+ textarea {
+   background: transparent;
+   border: none;
+   resize: none;
+   color: black;
+   border-left: 1px solid rgb(54, 97, 95);
+   padding: 10px;
+ }
 
-  .row {
-    border-top: 1px solid;
-    height: 80px;
-    margin: 1px;
-  }
-  
-  .hour {
-    background-color: rgb(238, 251, 252);
-    color: #0d2220;
-    border-top: 1px solid #40534d;
-  }
-  .saveBtn {
-    border: 1px solid #ffffff;
-    clip-path: polygon(75% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
-    background-color: #6cb7d4;
-    color: rgb(238, 251, 252);
-  }
 
-  .saveBtn:hover {
-    color: #40534d;
-  }
-  
-  .past {
-    background-color: #c7d0d1;
-    color: #0d2220;
-  }
-  
-  .present {
-    background-color: #d8b176;
-    color: #0d2220;
-  }
-  
-  .future {
-    background-color: #99f1d4;
-    color: #0d2220;
-  }
-  
-  
-  
-  
+ header {
+   text-align: center;
+   background-color: #b9e7e7;
+   color: black;
+   border-bottom: 5px solid #5e7575;
+   margin-bottom: 20px;
+   box-sizing: 0px 0px 10px #5e7575;
+ }
+
+ .description {
+   white-space: pre-wrap;
+ }
+
+ .time-block {
+   text-align: left;
+   border-radius: 15px;
+ }
+
+ .row {
+   border-top: 1px solid;
+   height: 80px;
+   margin: 1px;
+ }
+
+ .hour {
+   background-color: rgb(238, 251, 252);
+   color: #0d2220;
+   border-top: 1px solid #40534d;
+   width: 77px;
+   padding: 4px;
+ }
+
+ .saveBtn {
+   border: 1px solid #ffffff;
+   background-color: #6cb7d4;
+   color: rgb(238, 251, 252);
+ }
+
+ .saveBtn:hover {
+   color: #40534d;
+   background-color: #51aed3;
+   border: 1px solid #ffffff;
+ }
+
+ .past {
+   background-color: #c7d0d1;
+   color: #0d2220;
+ }
+
+ .present {
+   background-color: #d8b176;
+   color: #0d2220;
+ }
+
+ .future {
+   background-color: #99f1d4;
+   color: #0d2220;
+ }

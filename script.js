@@ -2,10 +2,10 @@ $(document).ready(function () {// script for load order
     //moment for time
     $("#currentDay").text(moment().format("MMM D, YY - h:mm a"));
     $(".saveBtn").on("click", function () {
-        
+
         console.log(this);
-        var abc = $(this).siblings(".description").val(); 
-        var time = $(this).parent().attr("id"); 
+        var abc = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
 
         //set items in local storage.
         localStorage.setItem(time, abc);
@@ -28,7 +28,7 @@ $(document).ready(function () {// script for load order
         // loop over time blocks
         $(".time-block").each(function () {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
-            console.log( blockHour, currentHour)
+            console.log(blockHour, currentHour)
 
             //change color for past present and future
             if (blockHour < currentHour) {
